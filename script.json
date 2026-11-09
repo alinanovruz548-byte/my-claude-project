@@ -1,0 +1,88 @@
+{
+  "title": "Как украли Мону Лизу",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": "auto",
+  "transition": 0.3,
+  "output": "mona_lisa_v4.mp4",
+  "fonts": {
+    "title": "assets/fonts/Unbounded-VF.ttf",
+    "body": "assets/fonts/Manrope-VF.ttf"
+  },
+  "voiceover": "assets/audio/voiceover_v4.mp3",
+  "music": "assets/audio/music.mp3",
+  "music_db": -12,
+  "voiceover_text": "Эту картину украли, и целые сутки никто не замечал! В тысяча девятьсот одиннадцатом году в Лу́вре обнаруживают: Моны Лизы нет на стене. Её вынес сотрудник музея, спрятав под рабочим халатом. Подозревали даже Пикассо! Но поиски шли два года, безрезультатно. А потом вор сам себя выдал: предложил купить картину флорентийскому антиквару. Его арестовали во Флоренции. В тысяча девятьсот четырнадцатом году Мона Лиза вернулась в Лу́вр. А из просто шедевра стала самой известной картиной в мире.",
+  "timeline": {
+    "nodes": [
+      {"year": "1911", "label": "Кража"},
+      {"year": "1913", "label": "Арест"},
+      {"year": "1914", "label": "Возвращение"}
+    ],
+    "anchors": [[0, 0], [33, 0], [39, 0.85], [51, 1.0], [55, 1.0], [60, 1.9], [63, 2.0]]
+  },
+  "transitions": ["glitch", "push", "iris", "blinds", "wipe", "push_up", "flash", "spin", "zoom"],
+  "scenes": [
+    {"id": 1, "from": 0, "chapter": [0, "Загадка"], "type": "photo",
+     "image": "01_monalisa.jpg", "focus": [0.5, 0.3], "effect": "shake",
+     "overlays": [
+       {"kind": "stamp", "text": "УКРАЛИ", "at": {"w": 2}, "pos": [440, 190], "angle": -9, "size": 80},
+       {"kind": "counter", "from": 0, "to": 24, "suffix": " ч", "at": {"w": 4}, "dur": 1.0, "pos": [44, 560], "size": 170},
+       {"kind": "stamp", "text": "НИКТО НЕ ЗАМЕЧАЛ", "at": {"w": 6}, "pos": [440, 360], "angle": 5, "size": 46}
+     ]},
+    {"id": 2, "from": 9, "chapter": [1, "Кража"], "type": "photo",
+     "image": "01_monalisa.jpg", "focus": [0.5, 0.33], "effect": "zoom_in_fast",
+     "overlays": [
+       {"kind": "counter", "from": 1900, "to": 1911, "at": {"w": 10}, "dur": 1.1, "pos": [44, 560], "size": 170},
+       {"kind": "chip", "text": "Лувр · Париж", "at": {"w": 15}}
+     ]},
+    {"id": 3, "from": 17, "chapter": [1, "Кража"], "type": "photo",
+     "image": "02_empty_wall.jpg", "focus": [0.5, 0.45], "effect": "shake",
+     "overlays": [
+       {"kind": "chip", "text": "22 августа 1911", "at": 0.3},
+       {"kind": "stamp", "text": "ИСЧЕЗЛА", "at": {"w": 19}, "pos": [440, 380], "angle": -9}
+     ]},
+    {"id": 4, "from": 22, "chapter": [2, "Вор"], "type": "dossier",
+     "marks": {"name": {"w": 22}, "work": {"w": 24}, "method": {"w": 26}, "strip": {"w": 26, "d": 0.15}}},
+    {"id": 5, "from": 30, "chapter": [2, "Вор"], "type": "photo",
+     "image": "04_picasso.jpg", "focus": [0.62, 0.4], "effect": "zoom_in_fast",
+     "overlays": [
+       {"kind": "chip", "text": "Допрос · 1911", "at": 0.2},
+       {"kind": "stamp", "text": "ПОДОЗРЕВАЕМЫЙ?!", "at": {"w": 32}, "pos": [440, 560], "angle": 7, "size": 54}
+     ]},
+    {"id": 6, "from": 33, "chapter": [3, "Поиски"], "type": "news",
+     "marks": {"count0": {"w": 34}, "count1": {"w": 38, "end": true}}},
+    {"id": 7, "from": 39, "chapter": [4, "Арест"], "type": "map",
+     "marks": {"pin_paris": 0.15, "route0": {"w": 40}, "route1": {"w": 49, "end": true}, "paper": {"w": 41},
+               "offer": {"w": 45}, "pin_flo": {"w": 49}, "antikvar": {"w": 49, "d": 0.25}}},
+    {"id": 8, "from": 50, "chapter": [4, "Арест"], "type": "photo",
+     "image": "07_peruggia_mugshot.jpg", "focus": [0.5, 0.35], "effect": "zoom_out",
+     "overlays": [
+       {"kind": "chip", "text": "Флоренция · декабрь 1913", "at": 0.2},
+       {"kind": "stamp", "text": "АРЕСТОВАН", "at": {"w": 51}, "pos": [440, 560], "angle": -8}
+     ]},
+    {"id": 9, "from": 54, "chapter": [5, "Возвращение"], "type": "photo",
+     "sequence": [
+       {"at": 0, "image": "11_recovered_1914.jpg", "focus": [0.5, 0.5], "effect": "zoom_in_slow"},
+       {"at": {"w": 59}, "image": "03_peruggia.jpg", "focus": [0.5, 0.5], "effect": "zoom_in_fast"}
+     ],
+     "overlays": [
+       {"kind": "counter", "from": 1913, "to": 1914, "at": {"w": 55}, "dur": 1.1, "pos": [44, 560], "size": 170},
+       {"kind": "stamp", "text": "ДОМОЙ", "at": {"w": 63}, "pos": [440, 560], "angle": -7}
+     ]},
+    {"id": 10, "from": 64, "chapter": [6, "Слава"], "type": "photo",
+     "image": "06_crowd.jpg", "focus": [0.5, 0.5], "effect": "zoom_out",
+     "overlays": [
+       {"kind": "chip", "text": "Лувр сегодня", "at": 0.15},
+       {"kind": "stamp", "text": "ЛЕГЕНДА", "at": {"w": 68}, "pos": [440, 560], "angle": 8}
+     ]},
+    {"id": 11, "from": 69, "chapter": [6, "Слава"], "type": "photo",
+     "image": "01_monalisa.jpg", "focus": [0.5, 0.26], "effect": "zoom_in_slow",
+     "glasses": {"left": [146, 126], "right": [187, 125], "delay": 0.25},
+     "overlays": [
+       {"kind": "confetti", "at": {"w": 70}},
+       {"kind": "stamp", "text": "№1 В МИРЕ", "at": {"w": 72}, "pos": [440, 600], "angle": -6, "size": 62}
+     ]}
+  ]
+}

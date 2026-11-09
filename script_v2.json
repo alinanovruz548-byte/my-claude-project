@@ -1,0 +1,33 @@
+{
+  "title": "Как украли Мону Лизу",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 31.86,
+  "output": "mona_lisa_v2.mp4",
+  "transition": 0.35,
+  "fonts": {
+    "title": "assets/fonts/Unbounded-VF.ttf",
+    "body": "assets/fonts/Manrope-VF.ttf"
+  },
+  "voiceover": "assets/audio/voiceover_v3.mp3",
+  "music": "assets/audio/music.mp3",
+  "music_db": -12,
+  "voiceover_text": "В тысяча девятьсот одиннадцатом году. В Лу́вре обнаруживают: Моны Лизы нет на стене. Её вынес сотрудник музея, спрятав под рабочим халатом. Подозревали даже Пикассо! Но поиски шли два года, безрезультатно. А потом вор сам себя выдал: предложил купить картину флорентийскому антиквару. Его арестовали во Флоренции. В тысяча девятьсот четырнадцатом году Мона Лиза вернулась в Лу́вр. А из просто шедевра стала самой известной картиной в мире.",
+  "scenes": [
+    {"id": 1,  "chapter": 1, "start": 0,    "end": 2.66,  "image": "01_monalisa.jpg",            "on_screen_text": "1911 год",                   "accent": "1911",      "chip": "Париж",               "theme": "dark",  "focus": [0.5, 0.33], "effect": "zoom_in_fast_fade_dark"},
+    {"id": 2,  "chapter": 1, "start": 2.66,  "end": 4.46,  "image": "01_monalisa.jpg",            "on_screen_text": "В Лувре",                    "accent": "Лувре",     "chip": "Салон Карре",         "theme": "light", "focus": [0.5, 0.22], "effect": "zoom_in_fast"},
+    {"id": 3,  "chapter": 1, "start": 4.46,  "end": 6.96,  "image": "02_empty_wall.jpg",          "on_screen_text": "Моны Лизы нет",              "accent": "нет",       "chip": "22 августа 1911",     "theme": "dark",  "focus": [0.5, 0.45], "effect": "shake"},
+    {"id": 4,  "chapter": 2, "start": 6.96,  "end": 8.86,  "image": "07_peruggia_mugshot.jpg",    "on_screen_text": "Вор из музея",               "accent": "из музея",  "chip": "Винченцо Перуджа",    "theme": "dark",  "focus": [0.5, 0.4],  "effect": "zoom_in_slow"},
+    {"id": 5,  "chapter": 2, "start": 8.86,  "end": 10.86, "image": "08_stealing_1911.jpg",       "on_screen_text": "Под рабочим халатом",        "accent": "халатом",   "chip": "Рисунок, 1911",       "theme": "dark",  "focus": [0.5, 0.5],  "effect": "zoom_in_fast"},
+    {"id": 6,  "chapter": 2, "start": 10.86, "end": 12.86, "image": "04_picasso.jpg",             "on_screen_text": "Подозревали Пикассо?!",      "accent": "Пикассо?!", "chip": "Версия следствия",    "theme": "light", "focus": [0.62, 0.4], "effect": "zoom_in_fast"},
+    {"id": 7,  "chapter": 3, "start": 12.86, "end": 15.86, "image": "05_newspapers.jpg",          "on_screen_text": "2 года поисков",             "accent": "2 года",    "chip": "1911 → 1913",         "theme": "light", "focus": [0.5, 0.5],  "effect": "pan_left_to_right"},
+    {"id": 8,  "chapter": 4, "start": 15.86, "end": 17.86, "image": "09_excelsior_1913.jpg",      "on_screen_text": "Вор выдал себя",             "accent": "выдал",     "chip": "L'Excelsior, 1913",   "theme": "dark",  "focus": [0.5, 0.15], "effect": "zoom_in_slow"},
+    {"id": 9,  "chapter": 4, "start": 17.86, "end": 21.16, "image": "10_uffizi_florence.jpg",     "on_screen_text": "Продавал антиквару",         "accent": "антиквару", "chip": "Флоренция",           "credit": "Фото: Stefano Travasci · CC BY 4.0", "theme": "dark",  "focus": [0.5, 0.5],  "effect": "pan_left_to_right"},
+    {"id": 10, "chapter": 4, "start": 21.16, "end": 23.16, "image": "07_peruggia_mugshot.jpg",    "on_screen_text": "Арест во Флоренции",         "accent": "Арест",     "chip": "Декабрь 1913",        "theme": "light", "focus": [0.5, 0.35], "effect": "zoom_out"},
+    {"id": 11, "chapter": 5, "start": 23.16, "end": 25.26, "image": "11_recovered_1914.jpg",      "on_screen_text": "1914. Домой",                "accent": "Домой",     "chip": "Картина найдена",     "theme": "dark",  "focus": [0.5, 0.5],  "effect": "zoom_in_slow"},
+    {"id": 12, "chapter": 5, "start": 25.26, "end": 27.56, "image": "03_peruggia.jpg",            "on_screen_text": "Вернулась в Лувр",           "accent": "Лувр",      "chip": "Январь 1914",         "theme": "dark",  "focus": [0.5, 0.5],  "effect": "zoom_in_fast"},
+    {"id": 13, "chapter": 5, "start": 27.56, "end": 29.76, "image": "06_crowd.jpg",               "on_screen_text": "Кража сделала её легендой",  "accent": "легендой",  "chip": "Лувр сегодня",        "theme": "light", "focus": [0.5, 0.5],  "effect": "zoom_out"},
+    {"id": 14, "chapter": 5, "start": 29.76, "end": 31.86, "image": "01_monalisa.jpg",            "on_screen_text": "Самая известная в мире",     "accent": "в мире",    "chip": "Новый образ",         "glasses": {"left": [146, 126], "right": [187, 125], "delay": 0.35}, "theme": "dark",  "focus": [0.5, 0.26], "effect": "zoom_in_slow"}
+  ]
+}
